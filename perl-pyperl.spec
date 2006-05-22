@@ -1,4 +1,9 @@
 #
+# TODO:
+# - do perl/python modules work when separated?
+#   if yes: perl/python subpackages + fix name
+#   if no: rename spec to mach name
+#
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
@@ -8,7 +13,7 @@
 Summary:	Encapuslate python objects
 Name:		perl-Python-pyperl
 Version:	1.0
-Release:	1
+Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
