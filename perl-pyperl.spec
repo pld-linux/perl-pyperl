@@ -11,7 +11,7 @@
 %define		pdir	Python
 %define		pnam	pyperl
 Summary:	Encapuslate Python objects
-Summary(pl):	Osadzanie obiektów Pythona
+Summary(pl.UTF-8):   Osadzanie obiektÃ³w Pythona
 Name:		perl-pyperl
 Version:	1.0
 Release:	0.1
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Encapuslate python objects.
 
-%description -l pl
-Osadzanie obiektów Pythona.
+%description -l pl.UTF-8
+Osadzanie obiektÃ³w Pythona.
 
 %prep
 %setup -q -n %{pnam}-%{version}
