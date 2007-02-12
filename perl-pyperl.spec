@@ -11,7 +11,7 @@
 %define		pdir	Python
 %define		pnam	pyperl
 Summary:	Encapuslate Python objects
-Summary(pl.UTF-8):   Osadzanie obiektów Pythona
+Summary(pl.UTF-8):	Osadzanie obiektów Pythona
 Name:		perl-pyperl
 Version:	1.0
 Release:	0.1
