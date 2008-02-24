@@ -14,7 +14,7 @@ Summary:	Encapuslate Python objects
 Summary(pl.UTF-8):	Osadzanie obiektów Pythona
 Name:		perl-pyperl
 Version:	1.0
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
