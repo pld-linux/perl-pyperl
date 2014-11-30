@@ -6,10 +6,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Python
 %define		pnam	pyperl
+%include	/usr/lib/rpm/macros.perl
 Summary:	Encapuslate Python objects
 Summary(pl.UTF-8):	Osadzanie obiektów Pythona
 Name:		perl-pyperl
@@ -21,6 +21,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	6e48c2c889bf55c2656e6ed4589854bf
 Patch0:		pyperl-build.patch
+URL:		http://search.cpan.org/dist/pyperl/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	python-devel
 BuildRequires:	rpm-perlprov >= 4.1-13
