@@ -9,7 +9,6 @@
 
 %define		pdir	Python
 %define		pnam	pyperl
-%include	/usr/lib/rpm/macros.perl
 Summary:	Encapuslate Python objects
 Summary(pl.UTF-8):	Osadzanie obiektów Pythona
 Name:		perl-pyperl
